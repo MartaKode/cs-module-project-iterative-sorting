@@ -134,7 +134,7 @@ def counting_sort(arr, maximum=None):
         if i == max_val:
             arr[i+1] = max_val
         else:
-            arr[initialized_arr[i]-1] =i
+            arr[initialized_arr[i]] =i+1
 
 
 

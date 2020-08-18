@@ -96,6 +96,7 @@ def counting_sort(arr, maximum=None):
     if not len(arr):
         return arr
 
+    # check for negative numbers
     for i in range(len(arr)-1):
         if arr[i] < 0:
             return "Error, negative numbers not allowed in Count Sort"
